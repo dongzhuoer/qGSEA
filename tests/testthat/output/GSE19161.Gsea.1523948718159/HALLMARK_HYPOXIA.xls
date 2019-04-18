@@ -1,0 +1,20 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HEXA	HEXA	hexosaminidase A (alpha polypeptide)	134	0.18641966581344604	-0.13834439	No	
+row_1	SLC37A4	SLC37A4	solute carrier family 37 (glycerol-6-phosphate transporter), member 4	135	0.1818533092737198	-0.039875627	No	
+row_2	PGM1	PGM1	phosphoglucomutase 1	156	0.15436451137065887	0.007994396	No	
+row_3	LOX	LOX	lysyl oxidase	254	0.073613241314888	-0.12536027	No	
+row_4	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	264	0.06169953569769859	-0.108023025	No	
+row_5	PIM1	PIM1	pim-1 oncogene	292	0.034075502306222916	-0.13778633	No	
+row_6	PAM	PAM	peptidylglycine alpha-amidating monooxygenase	296	0.031912874430418015	-0.12586349	No	
+row_7	MT2A	MT2A	metallothionein 2A	328	0.00908750295639038	-0.17629999	No	
+row_8	MXI1	MXI1	MAX interactor 1	356	-0.007539878599345684	-0.22043163	No	
+row_9	BTG1	BTG1	B-cell translocation gene 1, anti-proliferative	361	-0.010947713628411293	-0.22164659	No	
+row_10	XPNPEP1	XPNPEP1	X-prolyl aminopeptidase (aminopeptidase P) 1, soluble	362	-0.012123058550059795	-0.21508227	No	
+row_11	WSB1	WSB1	WD repeat and SOCS box-containing 1	366	-0.015864016488194466	-0.21184947	No	
+row_12	GBE1	GBE1	glucan (1,4-alpha-), branching enzyme 1 (glycogen branching enzyme, Andersen disease, glycogen storage disease type IV)	415	-0.05817856639623642	-0.2660616	No	
+row_13	CAV1	CAV1	caveolin 1, caveolae protein, 22kDa	477	-0.11867184191942215	-0.3107325	Yes	
+row_14	CYR61	CYR61	cysteine-rich, angiogenic inducer, 61	500	-0.1361938714981079	-0.27627283	Yes	
+row_15	SLC2A3	SLC2A3	solute carrier family 2 (facilitated glucose transporter), member 3	507	-0.14396314322948456	-0.20903488	Yes	
+row_16	GLRX	GLRX	glutaredoxin (thioltransferase)	532	-0.18123768270015717	-0.1537566	Yes	
+row_17	GAPDHS	GAPDHS	glyceraldehyde-3-phosphate dehydrogenase, spermatogenic	548	-0.2077305018901825	-0.06806174	Yes	
+row_18	CDKN1A	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	552	-0.2213354855775833	0.046428442	Yes	

@@ -1,0 +1,334 @@
+GPL10701:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL10878:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL13171:
+- name: GeneSymbols
+  description: gene symbols
+- name: GeneSymbols
+  description: ''
+GPL13224:
+- name: GB_ACC
+  description: GENBANK ID assigned by vendor
+- name: GB_ACC
+  description: RefSeq ID assigned by mAdb
+GPL13268:
+- name: GB_LIST
+  description: Refseq ID
+- name: GB_LIST
+  description: Genebank accession number
+GPL13346:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL13780:
+- name: GB_ACC
+  description: RefSeqAccession
+- name: GB_ACC
+  description: GenBankAccession
+GPL13825:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL13915:
+- name: GB_ACC
+  description: GenBank
+- name: GB_ACC
+  description: RefSeq ID
+GPL14870:
+- name: SPOT_ID
+  description: problem sequence identification
+- name: SPOT_ID
+  description: ''
+GPL15114:
+- name: RANGE_GB
+  description: NCBI Chromosome accession version for build 36
+- name: RANGE_GB
+  description: ''
+GPL15314:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL15380:
+- name: SYMBOL
+  description: Gene SYMBOL
+- name: SYMBOL
+  description: SYMBOL
+GPL16333:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL16824:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16825:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16826:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16827:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16829:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16830:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16831:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16832:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16833:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL16834:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL17585:
+- name: SPOT_ID
+  description: Probeset name, as listed in HTA-2_0.r1.pgf analysis library file.
+- name: SPOT_ID
+  description: ''
+GPL18096:
+- name: SPOT_ID
+  description: Spot identifier
+- name: GB_ACC
+  description: RefSeqAccession
+- name: GB_ACC
+  description: GenBankAccession
+- name: SPOT_ID
+  description: ''
+GPL18402:
+- name: SPOT_ID
+  description: control
+- name: SPOT_ID
+  description: ''
+GPL19718:
+- name: SPOT_ID
+  description: IlmnID
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+- name: SPOT_ID
+  description: ''
+GPL20333:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL21727:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL22120:
+- name: GENE_SYMBOL
+  description: Gene_Symbol
+- name: GENE_SYMBOL
+  description: circRNA Associated Gene Symbol
+GPL22198:
+- name: GB_LIST
+  description: RefSeq Accession number
+- name: GB_LIST
+  description: GenBank Accession number
+GPL22286:
+- name: SPOT_ID
+  description: Ensembl Gene Id
+- name: SPOT_ID
+  description: ''
+GPL22559:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL23135:
+- name: IlmnStrand
+  description: Illumina Strand
+- name: IlmnStrand
+  description: Illumina Strand 2
+GPL23136:
+- name: IlmnStrand
+  description: Illumina Strand
+- name: IlmnStrand
+  description: Illumina Strand 2
+GPL23195:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL23200:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL23211:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL23212:
+- name: SEQUENCE
+  description: AlleleA_ProbeSeq
+- name: SEQUENCE
+  description: AlleleB_ProbeSeq
+GPL23980:
+- name: miRNA_ID
+  description: ANNOTATION miRNA Name
+- name: miRNA_ID
+  description: MIRBASE accession number of spotted sequence
+GPL3016:
+- name: SPOT_ID
+  description: Spot coordinates on Array
+- name: SPOT_ID
+  description: ''
+GPL3800:
+- name: GB_ACC
+  description: the ensemble genebank refence sequence for the feature
+- name: GB_ACC
+  description: the EMBl reference number of the sequence
+GPL3877:
+- name: GB_LIST
+  description: Refseq accession
+- name: GB_LIST
+  description: Genbank accession
+GPL3993:
+- name: MARKER_NAME1
+  description: Marker name contained in clone.
+- name: MARKER_NAME1
+  description: ''
+GPL4133:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL5107:
+- name: GB_LIST
+  description: REFSEQ_id GenBank Accession number
+- name: GB_LIST
+  description: GenBank_accession GenBank Accession number
+GPL5704:
+- name: GB_LIST
+  description: RefSeq numbers
+- name: GB_LIST
+  description: GenBank accession number of sequence used to design oligonucleotide
+    probe
+GPL5920:
+- name: GB_ACC
+  description: RefSeq Accession Number
+- name: GB_ACC
+  description: GenBank Accession Number
+GPL6511:
+- name: GB_LIST
+  description: RefSeq accession number
+- name: GB_LIST
+  description: ''
+GPL6522:
+- name: GB_LIST
+  description: RefSeq accession
+- name: GB_LIST
+  description: GenBank accession
+GPL7025:
+- name: GB_ACC
+  description: GenBank Accession identifier of the matching sequence
+- name: GB_ACC
+  description: GenBank Reference Sequences identifier
+GPL7088:
+- name: GB_ACC
+  description: GENBANK ID assigned by vendor
+- name: GB_ACC
+  description: RefSeq ID assigned by mAdb
+GPL7210:
+- name: GB_LIST
+  description: Refseq accession
+- name: GB_LIST
+  description: ''
+GPL7276:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: spot identifier
+GPL7312:
+- name: SPOT_ID
+  description: Spot identifier
+- name: SPOT_ID
+  description: ''
+GPL7540:
+- name: GB_LIST
+  description: Refseq ID
+- name: GB_LIST
+  description: Genebank accession number
+GPL7759:
+- name: GB_ACC
+  description: GenBank Accession
+- name: GB_ACC
+  description: EMBL
+GPL8335:
+- name: ORF
+  description: Clone ids
+- name: ORF
+  description: Entrez Gene ID
+GPL8380:
+- name: GB_LIST
+  description: the transcript ID from NCBI Reference Sequences database
+- name: GB_LIST
+  description: GenBank accession number
+- name: GB_LIST
+  description: ''
+GPL9039:
+- name: SPOT_ID
+  description: control
+- name: SPOT_ID
+  description: ''
+GPL9193:
+- name: SPOT_ID
+  description: 'Spot Type, Genomic localization in protein-coding gene: Exonic (maps
+    to a known exon), TIN (maps totally inside an intron), PIN (maps partially to
+    an intron), Probe Type 1-4 (probes reserved for other studies), Agilent control
+    (Agilent name of control)'
+- name: SPOT_ID
+  description: Probe names assigned by authors
+GPL9299:
+- name: GB_LIST
+  description: refseq ID
+- name: GB_LIST
+  description: Gene Bank accession number
+GPL9955:
+- name: GB_LIST
+  description: RefSeq
+- name: GB_LIST
+  description: GB_accession

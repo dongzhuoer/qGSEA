@@ -1,0 +1,36 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FSTL3	FSTL3	follistatin-like 3 (secreted glycoprotein)	14	0.37968242168426514	0.07200918	Yes	
+row_1	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	17	0.3639725148677826	0.16203287	Yes	
+row_2	SPARC	SPARC	secreted protein, acidic, cysteine-rich (osteonectin)	93	0.22632503509521484	0.082429774	No	
+row_3	BMP1	BMP1	bone morphogenetic protein 1	165	0.14670266211032867	-0.010318171	No	
+row_4	FERMT2	null	null	195	0.12047530710697174	-0.032612137	No	
+row_5	RGS4	RGS4	regulator of G-protein signalling 4	201	0.1131213903427124	-0.0126816295	No	
+row_6	VIM	VIM	vimentin	209	0.10715047270059586	0.0020352681	No	
+row_7	FN1	FN1	fibronectin 1	230	0.09194906800985336	-0.011058303	No	
+row_8	IGFBP4	IGFBP4	insulin-like growth factor binding protein 4	236	0.08753795921802521	0.0022860705	No	
+row_9	TPM1	TPM1	tropomyosin 1 (alpha)	239	0.0853540450334549	0.02058293	No	
+row_10	COL3A1	COL3A1	collagen, type III, alpha 1 (Ehlers-Danlos syndrome type IV, autosomal dominant)	242	0.08405337482690811	0.038544945	No	
+row_11	LOX	LOX	lysyl oxidase	254	0.073613241314888	0.037275165	No	
+row_12	SERPINE1	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	264	0.06169953569769859	0.03661482	No	
+row_13	ITGB5	ITGB5	integrin, beta 5	272	0.05417107418179512	0.037692837	No	
+row_14	ACTA2	ACTA2	actin, alpha 2, smooth muscle, aorta	291	0.037353821098804474	0.014220873	No	
+row_15	CXCL12	CXCL12	chemokine (C-X-C motif) ligand 12 (stromal cell-derived factor 1)	294	0.03278833255171776	0.018985348	No	
+row_16	THBS1	THBS1	thrombospondin 1	313	0.023356689140200615	-0.008090001	No	
+row_17	PLOD2	PLOD2	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 2	324	0.013141930103302002	-0.02308913	No	
+row_18	EMP3	EMP3	epithelial membrane protein 3	385	-0.029873687773942947	-0.12569264	No	
+row_19	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	396	-0.03858286887407303	-0.13414231	No	
+row_20	VEGFC	VEGFC	vascular endothelial growth factor C	402	-0.044817004352808	-0.13179591	No	
+row_21	FMOD	FMOD	fibromodulin	414	-0.056815534830093384	-0.13739006	No	
+row_22	CALD1	CALD1	caldesmon 1	416	-0.06072814390063286	-0.1235946	No	
+row_23	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	449	-0.08391039818525314	-0.16081645	No	
+row_24	GADD45B	GADD45B	growth arrest and DNA-damage-inducible, beta	450	-0.08392288535833359	-0.13921155	No	
+row_25	HTRA1	HTRA1	HtrA serine peptidase 1	461	-0.10340005904436111	-0.13097486	No	
+row_26	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	470	-0.1129513829946518	-0.116602816	No	
+row_27	LUM	LUM	lumican	479	-0.12007554620504379	-0.10039675	No	
+row_28	COL16A1	COL16A1	collagen, type XVI, alpha 1	480	-0.1232084259390831	-0.06867829	No	
+row_29	THBS2	THBS2	thrombospondin 2	487	-0.13017010688781738	-0.04619704	No	
+row_30	CYR61	CYR61	cysteine-rich, angiogenic inducer, 61	500	-0.1361938714981079	-0.033194456	No	
+row_31	CDH11	CDH11	cadherin 11, type 2, OB-cadherin (osteoblast)	502	-0.1375001072883606	3.6498567E-4	No	
+row_32	SCG2	SCG2	secretogranin II (chromogranin C)	505	-0.14095385372638702	0.032975316	No	
+row_33	CAP2	CAP2	CAP, adenylate cyclase-associated protein, 2 (yeast)	539	-0.1890508085489273	0.020982312	No	
+row_34	COL6A3	COL6A3	collagen, type VI, alpha 3	540	-0.18983522057533264	0.06985301	No	

@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	17	0.3639725148677826	0.07779332	Yes	
+row_1	TSPAN4	TSPAN4	tetraspanin 4	42	0.30437639355659485	0.12525262	Yes	
+row_2	ACTG1	ACTG1	actin, gamma 1	50	0.2899869978427887	0.19900317	Yes	
+row_3	TIAL1	TIAL1	TIA1 cytotoxic granule-associated RNA binding protein-like 1	74	0.25153326988220215	0.23252757	Yes	
+row_4	CAP1	CAP1	CAP, adenylate cyclase-associated protein 1 (yeast)	103	0.21672889590263367	0.24669653	Yes	
+row_5	KCNH2	KCNH2	potassium voltage-gated channel, subfamily H (eag-related), member 2	143	0.17588701844215393	0.22892109	Yes	
+row_6	BMP1	BMP1	bone morphogenetic protein 1	165	0.14670266211032867	0.23483042	Yes	
+row_7	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	170	0.14363761246204376	0.27040273	Yes	
+row_8	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	204	0.10966141521930695	0.2437007	No	
+row_9	CDH1	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	227	0.09358663111925125	0.23199676	No	
+row_10	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	323	0.015111645683646202	0.065632775	No	
+row_11	ICAM4	ICAM4	intercellular adhesion molecule 4 (Landsteiner-Wiener blood group)	347	-0.0017662824830040336	0.02479176	No	
+row_12	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	386	-0.03035968914628029	-0.034514297	No	
+row_13	ITGB4	ITGB4	integrin, beta 4	422	-0.06450527906417847	-0.078258194	No	
+row_14	MPZL2	null	null	427	-0.06803201138973236	-0.06519664	No	
+row_15	RASA1	RASA1	RAS p21 protein activator (GTPase activating protein) 1	444	-0.0755242258310318	-0.07148711	No	
+row_16	KRT31	KRT31	keratin 31	455	-0.09849006682634354	-0.060148366	No	
+row_17	COL16A1	COL16A1	collagen, type XVI, alpha 1	480	-0.1232084259390831	-0.066629864	No	
+row_18	CDH11	CDH11	cadherin 11, type 2, OB-cadherin (osteoblast)	502	-0.1375001072883606	-0.063460484	No	
+row_19	ICAM2	ICAM2	intercellular adhesion molecule 2	506	-0.14171202480793	-0.026662953	No	
+row_20	GAMT	GAMT	guanidinoacetate N-methyltransferase	523	-0.16713036596775055	-0.0056786817	No	
+row_21	ITGA10	ITGA10	integrin, alpha 10	525	-0.1673940122127533	0.042362507	No	
+row_22	PKD1	PKD1	polycystic kidney disease 1 (autosomal dominant)	527	-0.17183664441108704	0.091726445	No	

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/index.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/make_gsea_input.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/make_phenotype.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/read_chip.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/read_txt.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/reexports.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/write_chip.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/write_cls.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/reference/write_txt.html</loc>
+  </url>
+  <url>
+    <loc>https://dongzhuoer.github.io/qGSEA/articles/qGSEA.html</loc>
+  </url>
+</urlset>

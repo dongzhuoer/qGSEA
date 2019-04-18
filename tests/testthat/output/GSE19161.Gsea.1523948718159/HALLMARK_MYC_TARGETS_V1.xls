@@ -1,0 +1,22 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EIF4G2	EIF4G2	eukaryotic translation initiation factor 4 gamma, 2	0	1.0	0.1637191	Yes	
+row_1	CCNA2	CCNA2	cyclin A2	4	0.418318510055542	0.2268295	Yes	
+row_2	HDGF	HDGF	hepatoma-derived growth factor (high-mobility group protein 1-like)	6	0.3934217691421509	0.28944802	Yes	
+row_3	ILF2	ILF2	interleukin enhancer binding factor 2, 45kDa	15	0.3720266819000244	0.33601898	Yes	
+row_4	STARD7	STARD7	START domain containing 7	18	0.3634793162345886	0.39194328	Yes	
+row_5	TARDBP	TARDBP	TAR DNA binding protein	22	0.34568914771080017	0.44316283	Yes	
+row_6	SLC25A3	SLC25A3	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 3	30	0.3306179642677307	0.48474652	Yes	
+row_7	CANX	CANX	calnexin	33	0.32772916555404663	0.5348178	Yes	
+row_8	HNRNPA1	null	null	51	0.2899709641933441	0.55182564	Yes	
+row_9	MCM4	MCM4	MCM4 minichromosome maintenance deficient 4 (S. cerevisiae)	54	0.2868753969669342	0.5952084	Yes	
+row_10	PSMB2	PSMB2	proteasome (prosome, macropain) subunit, beta type, 2	62	0.27528858184814453	0.6277336	Yes	
+row_11	DUT	DUT	dUTP pyrophosphatase	75	0.2515183687210083	0.6474066	Yes	
+row_12	HSP90AB1	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	77	0.24818119406700134	0.68624645	Yes	
+row_13	RPL6	RPL6	ribosomal protein L6	113	0.2028236985206604	0.65672857	No	
+row_14	RNPS1	RNPS1	RNA binding protein S1, serine-rich domain	117	0.197785884141922	0.6837335	No	
+row_15	RPL18	RPL18	ribosomal protein L18	140	0.17827670276165009	0.67349434	No	
+row_16	RPS5	RPS5	ribosomal protein S5	161	0.14849509298801422	0.6619635	No	
+row_17	AP3S1	AP3S1	adaptor-related protein complex 3, sigma 1 subunit	277	0.04918074235320091	0.46392214	No	
+row_18	NCBP2	NCBP2	nuclear cap binding protein subunit 2, 20kDa	374	-0.022554080933332443	0.29557168	No	
+row_19	RPL34	RPL34	ribosomal protein L34	493	-0.1327909380197525	0.10584255	No	
+row_20	PRPS2	PRPS2	phosphoribosyl pyrophosphate synthetase 2	568	-0.2729988992214203	0.017921202	No	

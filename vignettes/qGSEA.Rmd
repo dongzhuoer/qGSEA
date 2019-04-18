@@ -1,0 +1,74 @@
+---
+title: "Introduction to qGSEA"
+author: "Zhuoer Dong"
+date: "`r Sys.Date()`"
+output: prettydoc::html_pretty
+vignette: >
+  %\VignetteIndexEntry{Introduction to qGSEA}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+```{r}
+library(qGSEA)
+```
+
+
+# quick start
+
+1. Shiny App ^[you have run the app on your local computer since it needs to read/write local files]
+
+```r
+shiny::runApp(system.file('shiny/app.R', package = 'qGSEA'))
+```
+
+2. command line
+
+refer to examples of `make_gsea_input()`
+
+3. GSEA 下载
+
+进入 [GSEA官方下载页面](http://software.broadinstitute.org/gsea/downloads.jsp) ^[需要输入邮箱登入方可进入] ，在 `Software` tab下载"javaGSEA Java Jar file"， 在 `MSigDB` tab 下载想要分析的 gene set collections (`.gmt`文件)，最常用的是 `h.all.v6.1.symbols.gmt`
+
+# package structure
+
+http://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats
+
+
+1. expression data .txt file
+
+raw data -> `matrix`: `rGEO::read_gse_matrix()`
+`matrix` -> `.txt`:   `write_txt()`
+`matrix` <- `.txt`:   `read_txt()`
+
+2. 
+
+
+3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1523948718159
+param	collapse	true
+param	cls	GSE19161.cls#EIF4G2
+param	plot_top_x	20
+param	norm	meandiv
+param	save_rnd_lists	false
+param	median	false
+param	num	100
+param	scoring_scheme	weighted
+param	make_sets	true
+param	mode	Max_probe
+param	gmx	/media/computer/opt/GSEA/msigdb_v6.1/msigdb_v6.1_GMTs/h.all.v6.1.symbols.gmt
+param	gui	false
+param	chip	GSE19161.chip
+param	metric	Pearson
+param	rpt_label	GSE19161
+param	help	false
+param	order	descending
+param	out	/media/computer/work/R/qGSEA/tests/testthat/output/.
+param	create_svgs	false
+param	permute	phenotype
+param	rnd_type	no_balance
+param	set_min	15
+param	include_only_symbols	true
+param	sort	real
+param	create_gcts	false
+param	rnd_seed	timestamp
+param	nperm	10
+param	zip_report	false
+param	set_max	500
+param	res	/media/computer/work/R/qGSEA/tests/testthat/output/GSE19161.txt
+
+file	./GSE19161.Gsea.1523948718159/index.html
