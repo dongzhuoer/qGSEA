@@ -1,4 +1,0 @@
-Name: quick GSEA
-Description: Quickly prepare GSEA input files from rGEO raw data
-Binding: qgsea_addin
-Interactive: true
