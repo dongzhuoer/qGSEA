@@ -1,0 +1,32 @@
+Package: qGSEA
+Type: Package
+Title: Simplest tool to prepare GSEA input files
+Version: 0.3.0
+Authors@R: person("Zhuoer", "Dong", email = "dongzhuoer@mail.nankai.edu.cn", 
+    role = c("aut", "cre"))
+Description: refer to https://github.com/dongzhuoer/qGSEA
+URL: https://pkgdown.dongzhuoer.com/dongzhuoer/qGSEA, https://github.com/dongzhuoer/qGSEA
+BugReports: https://github.com/dongzhuoer/qGSEA/issues
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE, roclets=c('rd', 'collate', 'namespace'))
+Imports:
+    hgnc,
+    rGEO,
+    magrittr,
+    readr,
+    stringr,
+    dplyr,
+    tibble,
+    plyr,
+    shiny,
+    shinyFiles,
+    shinyjs
+Suggests:
+    prettydoc
+Remotes:
+    dongzhuoer/hgnc,
+    dongzhuoer/rGEO
+VignetteBuilder: knitr, rmarkdown

@@ -1,0 +1,41 @@
+---
+title: "Introduction to qGSEA"
+author: "Zhuoer Dong"
+date: "`r Sys.Date()`"
+output: prettydoc::html_pretty
+vignette: >
+  %\VignetteIndexEntry{Introduction to qGSEA}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+This package aims to make preparing GSEA [^install] input files as easy as possible, by providing the following two methods:
+
+
+
+# GUI by Shiny App 
+
+```r
+shiny::runApp(system.file('shiny/app.R', package = 'qGSEA'))
+```
+
+The app's usage should be pretty straightforward ^[You just need to click anywhere you like and it would show useful hint.], and there is a detailed [guide](https://bookdown.dongzhuoer.com/dongzhuoer/thesis/result.html#quick-run-GSEA) with screenshots.
+
+
+
+# command line in R
+
+   refer to `make_gsea_input()`.
+
+
+
+[^install]:
+    If you haven't install GSEA yet, here is a brief guide. 
+    
+    - go to [official download](http://software.broadinstitute.org/gsea/downloads.jsp)
+    - download "javaGSEA Java Jar file" under `Software` tab
+    - download gene set collections (`.gmt` file) you want to analyse under `MSigDB` tab (choose `h.all.v6.1.symbols.gmt` if you get confused.

@@ -1,0 +1,34 @@
+---
+title: build package vignettes
+---
+
+
+
+# Build vignettes
+
+```{r build-vignettes}
+for (rmd_vignette in dir(here::here('vignettes'), 'Rmd$', full = T)) {
+    callr::r_vanilla(
+        function(input_file) {rmarkdown::render(input_file)}, 
+        list(rmd_vignette), .libPaths(), show = T
+    )
+}
+	
+dir(here::here('vignettes'), 'html$') %>%
+    {file.copy(
+        paste0(here::here('vignettes/'), .), 
+        paste0(here::here('inst/doc/'), .), 
+        overwrite = T
+    )}
+```
+
+
+
+# Afterward
+
+```{r reinstall}
+# test() and document() is not needed since we haven't edited any source code
+
+system('R CMD INSTALL --no-multiarch --with-keep.source .')
+devtools::reload()  # now you can view the vignettes
+```

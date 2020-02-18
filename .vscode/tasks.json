@@ -1,0 +1,62 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "type": "shell",
+    "problemMatcher": [],
+    "presentation": {
+        "reveal": "silent",
+    },
+    "tasks": [
+        {
+            "label": "view GitHub",
+            "command": "firefox https://github.com/dongzhuoer/${workspaceFolderBasename} 2> /dev/null",
+        },
+        {
+            "label": "view local pkgdown",
+            "command": "firefox pkgdown/output/index.html 2> /dev/null",
+        },
+        {
+            "label": "view online pkgdown",
+            "command": "firefox https://pkgdown.dongzhuoer.com/dongzhuoer/${workspaceFolderBasename} 2> /dev/null",
+        },
+        {
+            "label": "document",
+            "command": "Rscript -e 'Rcpp::compileAttributes(); roxygen2::roxygenize()'",
+        },
+        {
+            "label": "vignettes",
+            "command": "Rscript -e \"rmarkdown::render('R-raw/vignettes.Rmd')\"",
+        },
+        {
+            "label": "data",
+            "command": "Rscript -e \"rmarkdown::render('R-raw/data.Rmd')\"",
+        },
+        {
+            "label": "pkgdown",
+            "command": "Rscript -e 'pkgdown::build_site(lazy = T)'",
+            "dependsOn": [
+                "document"
+            ],
+        },
+        {
+            "label": "build",
+            "command": "R CMD INSTALL --no-multiarch --with-keep.source .",
+            "dependsOn": [
+                "document"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {
+            "label": "test",
+            "command": "Rscript -e \"pkgload::load_all(); testthat::test_dir('tests/testthat/')\"",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+        },
+    ]
+}
