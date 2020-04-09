@@ -116,7 +116,7 @@ testthat::test_that('make_phenotype()', {
 		NULL
 	)
 
-	testthat::expect_identical(
+	testthat::expect_equal(
 		make_phenotype(tibble::tibble(ID_REF = 1:4, c(4, 7, 5, 4), c(8, 5, 11, 6)),
 					   tibble::tibble(ID_REF = 1:4, symbol = c('a', 'b', 'a', 'b')),
 					   c('a', 'b')
