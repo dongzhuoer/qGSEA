@@ -116,23 +116,24 @@ testthat::test_that('make_phenotype()', {
 		NULL
 	)
 
-	testthat::expect_equal(
-		make_phenotype(tibble::tibble(ID_REF = 1:4, c(4, 7, 5, 4), c(8, 5, 11, 6)),
-					   tibble::tibble(ID_REF = 1:4, symbol = c('a', 'b', 'a', 'b')),
-					   c('a', 'b')
-		),
-		tibble::tibble(a = c(5, 11), b = c(7, 6))
-	)
+    testthat::expect_identical(
+        make_phenotype(
+            tibble::tibble(ID_REF = 1:4, a = c(4, 7, 5, 4), b = c(8, 5, 11, 6)),
+            tibble::tibble(ID_REF = 1:4, symbol = c('a', 'b', 'a', 'b')),
+            c('a', 'b')
+        ),
+        tibble::tibble(a = c(a = 5, b = 11), b = c(a = 7, b = 6))
+    )
 
 	matrix <- read_txt('tests/testthat/output/GSE51280.txt')
 	chip <- read_chip('tests/testthat/output/GSE51280.chip')
 	gene <- c('CCNB1', 'NEUROG1')
-	phenotype <- make_phenotype(matrix, chip, gene)
+	phenotype2 <- make_phenotype(matrix, chip, gene)
 
-	testthat::expect_true(tibble::is_tibble(phenotype))
-	testthat::expect_identical(colnames(phenotype), gene)
- 	testthat::expect_identical(dim(phenotype), c(24L, 2L))
- 	testthat::expect_identical(sapply(phenotype, class) %>% {names(.) <- NULL; .}, rep('numeric', 2))
+	testthat::expect_true(tibble::is_tibble(phenotype2))
+	testthat::expect_identical(colnames(phenotype2), gene)
+ 	testthat::expect_identical(dim(phenotype2), c(24L, 2L))
+ 	testthat::expect_identical(sapply(phenotype2, class) %>% {names(.) <- NULL; .}, rep('numeric', 2))
 
  	testthat::expect_warning(make_phenotype(matrix, chip, 'doubi') %>% write_cls(tempfile()))
 });

@@ -167,8 +167,8 @@ write_cls <- function(phenotype, path) {
 #'
 #' @examples NULL
 
-# matrix <- read_gse_matrix('tests/testthat/GSE51280_series_matrix.txt.gz', F)
-# chip <- read_gse_soft('tests/testthat/GSE51280_family.soft.gz')
+# matrix <- rGEO::read_gse_matrix(system.file('extdata/GSE51280_series_matrix.txt.gz', package = 'rGEO'))
+# chip <- rGEO::read_gse_soft(system.file('extdata/GSE51280_family.soft.gz', package = 'rGEO'))
 # gene <- c('CCNB1', 'NEUROG1')
 make_phenotype <- function(matrix, chip, gene) {
 	maximum <- . %>% {suppressWarnings(max(., na.rm = T))}
@@ -180,7 +180,7 @@ make_phenotype <- function(matrix, chip, gene) {
 	dataset %>%
 		dplyr::filter(.data$symbol %in% gene) %>%
 		dplyr::group_by_at('symbol') %>%
-		dplyr::summarise_if(is.numeric, dplyr::funs(maximum)) %>%
+		dplyr::summarise_if(is.numeric, suppressWarnings(dplyr::funs(maximum))) %>%
 		plyr::dlply('symbol', . %>% {
 			name = .[1, 1, drop = T];
 			value = unlist(.[1, -1, drop = T]);
